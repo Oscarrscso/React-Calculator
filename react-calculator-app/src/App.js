@@ -1,11 +1,12 @@
+import Buttons from "./buttons"
+import Display from "./Display"
 
-
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+const App = () =>{
+    return (
+        <div className="calculator">
+            <Display />
+            <Buttons />
+        </div>
+    )
 }
-
 export default App;
