@@ -24,5 +24,13 @@ const Buttons = () =>{
     </div>   
     )
 }
-
 export default Buttons;
+
+let nums = document.querySelectorAll(".nums")
+
+
+nums.forEach(el =>{
+    el.addEventListener('click', e =>{
+        console.log(e.target.id)
+    });
+});
